@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage('Listing Files') {
+          steps {
+                 sh '''#!/bin/bash
+                 for entry in `ls $abhitest`; do
+    echo $entry
+done 
+         '''
+    }
+}
