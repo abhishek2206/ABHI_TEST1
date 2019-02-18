@@ -14,7 +14,7 @@ pipeline {
                 '''
 		sh '''
                     echo "Run File"
-                    sh abhitest.sh
+                    ./abhitest.sh
                 '''
             }
         }
