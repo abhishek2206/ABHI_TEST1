@@ -1,0 +1,8 @@
+pipeline {
+	agent any
+	stages {
+              bash '''#!/bin/bash
+                 echo "hello world" 
+         '''
+    }
+}
